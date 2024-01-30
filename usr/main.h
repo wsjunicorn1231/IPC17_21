@@ -25,12 +25,15 @@
 /* Includes ------------------------------------------------------------------*/
 #include "stm32f4xx.h"
 
-
+#define ARR_VALUE 5000
+#define PSC_VALUE 8400
+#define MAX_Min_Second 60
+#define MAX_Hours 24
 /* Exported types ------------------------------------------------------------*/
 /* Exported constants --------------------------------------------------------*/
 /* Exported macro ------------------------------------------------------------*/
 /* Exported functions ------------------------------------------------------- */
 void TimingDelay_Decrement(void);
+void displayTime(void);
 
 #endif /* __MAIN_H */
-
